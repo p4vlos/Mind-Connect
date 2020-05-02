@@ -5,7 +5,7 @@ final class AppSettings {
   private enum SettingKey: String {
     case displayName
   }
-  
+
   static var displayName: String! {
     get {
       return UserDefaults.standard.string(forKey: SettingKey.displayName.rawValue)
