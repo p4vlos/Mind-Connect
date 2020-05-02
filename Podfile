@@ -3,7 +3,6 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'RWRC' do
-  pod 'Firebase/Analytics'
   pod 'MessageKit'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
